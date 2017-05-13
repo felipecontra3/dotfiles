@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Franz
+Comment=
+Exec=/opt/franz/Franz
+Icon=/opt/franz/franz-icon.png
+Terminal=false
+Type=Application
+Categories=Messaging,Internet
