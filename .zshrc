@@ -92,15 +92,19 @@ export VIRTUALENV_PYTHON=/usr/bin/python3
 alias python=python3
 alias vi=vim
 
-alias projects="cd /home/felipe/dev/projects"
-alias pyenvs="cd /home/felipe/dev/pyenvs"
-alias tcc="cd /home/felipe/dev/tcc"
-alias dev="cd /home/felipe/dev"
+# Aliases to fastly access folder
+alias projects="cd /home/felipe/Dropbox/dev/projects"
+alias pyenvs="cd /home/felipe/Dropbox/dev/pyenvs"
+alias tcc="cd /home/felipe/Dropbox/dev/tcc"
+alias dev="cd /home/felipe/Dropbox/dev"
+
+# VPN Access
+alias vpn="source /home/felipe/Dropbox/dev/vpn/open_vpn_tunnel.sh"
 
 
 workon(){
-	cd /home/felipe/dev/projects/$1
-	source /home/felipe/dev/pyenvs/$1/bin/activate
+	cd /home/felipe/Dropbox/dev/projects/$1
+	source /home/felipe/Dropbox/dev/pyenvs/$1/bin/activate
 }
 
 
