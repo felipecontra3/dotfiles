@@ -99,7 +99,7 @@ alias tcc="cd /home/felipe/Dropbox/dev/tcc"
 alias dev="cd /home/felipe/Dropbox/dev"
 
 # VPN Access
-alias vpn="source /home/felipe/Dropbox/dev/vpn/open_vpn_tunnel.sh"
+alias vpn="sudo bash /home/felipe/Dropbox/dev/vpn/open_vpn_tunnel.sh"
 
 
 workon(){
